@@ -1,7 +1,7 @@
 # 8086 Minicomputer
 A basic minicomputer design based on the 8086 CPU
 
-Full disclosure up front: I heavily used LLM chats to help me with the design because I'm a complete noob. I just happened to have an 8086 8 MHz CPU lying about, as well as a Specialix I/O4+ quad UART serial card, and I thought I might like to build a minicomputer out of it. This was largely inspired by Usagi Electric's TMS9900 minicomputer project. You can check out his projects at https://github.com/Nakazoto
+Full disclosure up front: I heavily used LLM chats to help me with the design because I'm a complete noob. I just happened to have an 8086 8 MHz CPU lying about, as well as a Specialix I/O4+ quad UART serial card, and I thought I might like to build a minicomputer out of it. This idea was largely inspired by Usagi Electric's TMS9900 minicomputer project. You can check out his projects at https://github.com/Nakazoto
 
 This is, as I've said, a minicomputer. It is my intention that one will only be able to communicate with it over serial terminal, and the serial card I have supports up to four. Storage will be handled by a fairly generic multi-I/O card built around the DLU 270. The eventual ROM code will have these cards in mind. Simply because it's what I have on hand that's 16-bit native, I've gone with the AM27C400 EPROM.
 
